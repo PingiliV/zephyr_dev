@@ -15,6 +15,7 @@
 #define __TEST_UART_H__
 
 #include <uart.h>
+#include <rs485.h>
 
 #define UART_DEVICE_NAME CONFIG_UART_CONSOLE_ON_DEV_NAME
 
