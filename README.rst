@@ -29,15 +29,20 @@ Setup environment variables
 ###########################
 
 export ZEPHYR_BASE=<zephyr source base dir>
+<<<<<<< HEAD
 
 export ZEPHYR_GCC_VARIANT=zephyr
 
+=======
+export ZEPHYR_GCC_VARIANT=zephyr
+>>>>>>> 3ffdc725962e1c2d295970f49a43987f1ffea67a
 export ZEPHYR_SDK_INSTALL_DIR=/opt/zephyr-sdk
 
 
 Compilation steps for latest Zephyr releases
 ############################################
 
+<<<<<<< HEAD
 
 1) Download Latest or 3.8.2 or greater cmake source.
  
@@ -59,3 +64,16 @@ Compilation steps for latest Zephyr releases
 
 2d) build/arduino_due/zephyr will have corresponding binaries ready to be flashed on the device.
 
+=======
+cmake expects 3.8.2 version.
+1) Download Latest or 3.8.2 or greater cmake source.
+1a) unzip or untar cmake packages.
+1b) ./configure <configure the package for compilation>.
+1c) make.
+1d) sudo make install.
+2) In samples and corresponding app ex: zephyr/samples/hello_world.
+2) create build/arduino_due <corresponding target> (mkdir -p build/arduino_due).
+2a) cmake -DBOARD=arduino_due ../.. (as cmakelist exists in samples/hello_world).
+2b) run make command to compile the platform and OS centric source files cmd: make.
+2c) build/arduino_due/zephyr will have corresponding binaries ready to be flashed on the device.
+>>>>>>> 3ffdc725962e1c2d295970f49a43987f1ffea67a
