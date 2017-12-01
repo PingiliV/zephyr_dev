@@ -101,4 +101,5 @@ source "drivers/serial/Kconfig.gecko"
 
 source "drivers/serial/Kconfig.msp432p4xx"
 
+source "drivers/serial/Kconfig.rs485_sam"
 endif
