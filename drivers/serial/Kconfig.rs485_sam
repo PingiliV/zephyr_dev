@@ -8,6 +8,6 @@ menuconfig RS485_SAM
 	bool "Atmel SAM MCU family RS485 driver"
 	depends on SOC_FAMILY_SAM
 	select SERIAL_HAS_DRIVER
-	default n
+	default y 
 	help
 	  This option enables the USARTx driver for Atmel SAM MCUs.

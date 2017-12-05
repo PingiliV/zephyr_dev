@@ -10,6 +10,7 @@
 		uart_0 = &uart0;
 		i2c_0 = &i2c0;
 		i2c_1 = &i2c1;
+		usart_1 = &usart1;
 	};
 
 	chosen {
@@ -28,6 +29,11 @@
 };
 
 &uart0 {
+	status = "ok";
+	current-speed = <115200>;
+};
+
+&usart1 {
 	status = "ok";
 	current-speed = <115200>;
 };
