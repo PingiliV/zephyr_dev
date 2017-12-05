@@ -51,6 +51,7 @@ static int rs485_sam_init(struct device *dev)
 
 	/* Enable USART clock in PMC */
 	soc_pmc_peripheral_enable(cfg->periph_id);
+	printk("Called rs485_sam_init\n");
 
 	/* Connect pins to the peripheral */
 	soc_gpio_configure(&cfg->rs485_pin_rx);
@@ -68,7 +69,7 @@ static int rs485_sam_init(struct device *dev)
 		       | US_MR_PAR_NO
 		       | US_MR_CHRL_8_BIT
 		       | US_MR_USCLKS_MCK
-		       | US_MR_CHMODE_NORMAL;
+		       | US_MR_USART_MODE_RS485;
 
 	/* Set baud rate */
 	retval = baudrate_set(usart, dev_data->baud_rate,
@@ -85,11 +86,13 @@ static int rs485_sam_init(struct device *dev)
 
 static int rs485_sam_receive(struct device *dev, unsigned char *c)
 {
+	printk("Called rs485_sam_receive\n");
 	return 0;
 }
 
 static unsigned char rs485_sam_send(struct device *dev, unsigned char c)
 {
+	printk("Called rs485_sam_receive\n");
 	c = 'x';
 	return c;
 }
@@ -97,6 +100,7 @@ static unsigned char rs485_sam_send(struct device *dev, unsigned char c)
 static int baudrate_set(Usart *const usart, u32_t baudrate,
 			u32_t mck_freq_hz)
 {
+	printk("baudrate_set called \n");
 	u32_t divisor;
 
 	__ASSERT(baudrate,

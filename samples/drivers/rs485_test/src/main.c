@@ -25,15 +25,19 @@
  *      console and exit after receiving '\n'.
  * @}
  */
+#include <errno.h>
+#include <zephyr.h>
+#include <misc/printk.h>
+#include <device.h>
+#include "test_rs485.h"
 
-#include "test_uart.h"
 
 static const char *poll_data = "This is a POLL test.\r\n";
 
 static int test_poll_in(void)
 {
 	unsigned char recv_char;
-	struct device *rs485_dev = device_get_binding(UART_DEVICE_NAME);
+	struct device *rs485_dev = device_get_binding(RS485_DEVICE_NAME);
 #if 0
 	if (!uart_dev) {
 		TC_PRINT("Cannot get UART device\n");
@@ -56,6 +60,7 @@ static int test_poll_in(void)
 
 	return TC_PASS;
 #endif
+	printk("Atmel SAM RS485 driver test poll in called\n");
 	rs485_poll_in(rs485_dev, &recv_char);
 	return 0;
 }
@@ -64,7 +69,7 @@ static int test_poll_out(void)
 {
 	int i;
 	unsigned char sent_char;
-	struct device *rs485_dev = device_get_binding(UART_DEVICE_NAME);
+	struct device *rs485_dev = device_get_binding(RS485_DEVICE_NAME);
 #if 0
 	if (!uart_dev) {
 		TC_PRINT("Cannot get UART device\n");
@@ -84,12 +89,14 @@ static int test_poll_out(void)
 
 	return TC_PASS;
 #endif
+	printk("Atmel SAM RS485 driver test poll out called\n");
 	rs485_poll_out(rs485_dev,'a');
 	return 0;
 }
 
 void main(void)
 {
+	printk("Atmel SAM RS485 driver test invoked\n");
 	test_poll_in();	
 	test_poll_out();
 }
