@@ -1,0 +1,2 @@
+ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-ar qc libboards__arm__arduino_due.a  CMakeFiles/boards__arm__arduino_due.dir/pinmux.c.obj
+ccache /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-ranlib libboards__arm__arduino_due.a

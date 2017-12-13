@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/arch/arm/soc/atmel_sam/sam3x/linker.ld
+arch/arm/cortex_m/scripts/linker.ld
+-
+

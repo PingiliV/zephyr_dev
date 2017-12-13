@@ -4,7 +4,7 @@
 #include <init.h>
 #include <soc.h>
 #include <rs485.h>
-#include <uart.h>
+//#include <uart.h>
 /*
  * Verify Kconfig configuration
  */
@@ -81,7 +81,7 @@ static int rs485_sam_init(struct device *dev)
 	/* Enable receiver and transmitter */
 	usart->US_CR = US_CR_RXEN | US_CR_TXEN;
 
-	return 0;
+	return 0
 }
 
 static int rs485_sam_receive(struct device *dev, unsigned char *c)
@@ -124,10 +124,13 @@ static const struct rs485_driver_api rs485_sam_driver_api = {
 	.poll_out = rs485_sam_send,
 };
 
+DEVICE_DEFINE(rs485_sam, CONFIG_SAM_RS485_0_NAME, &rs485_sam_init, rtc_qmsi_device_ctrl,
+	      RTC_CONTEXT, NULL, POST_KERNEL, CONFIG_KERNEL_INIT_PRIORITY_DEVICE,
+	      &api);
 
 /* USART1 */
 
-//#ifdef CONFIG_USART_SAM_PORT_1
+#ifdef CONFIG_USART_SAM_PORT_1
 static const struct rs485_sam_dev_cfg rs485_sam_config = {
 	.regs = USART1,
 	.periph_id = ID_USART1,
@@ -143,5 +146,5 @@ static struct rs485_sam_dev_data rs485_sam_data = {
 DEVICE_AND_API_INIT(rs485_sam, CONFIG_USART_SAM_PORT_1_NAME, &rs485_sam_init,
 		    &rs485_sam_data, &rs485_sam_config, PRE_KERNEL_1,
 		    CONFIG_KERNEL_INIT_PRIORITY_DEVICE, &rs485_sam_driver_api);
-//#endif
+#endif
 

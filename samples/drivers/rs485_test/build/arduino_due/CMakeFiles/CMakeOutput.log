@@ -1,0 +1,364 @@
+The target system is: Generic -  - arm
+The host system is: Linux - 4.4.0-101-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CMakeCCompilerId.o"
+
+The C compiler identification is GNU, found in "/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/3.9.6/CompilerIdC/CMakeCCompilerId.o"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-g++ 
+Build flags: 
+Id flags: -c 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CMakeCXXCompilerId.o"
+
+The CXX compiler identification is GNU, found in "/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/3.9.6/CompilerIdCXX/CMakeCXXCompilerId.o"
+
+Performing C SOURCE FILE Test toolchain_is_ok succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3aa03/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3aa03.dir/build.make CMakeFiles/cmTC_3aa03.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3aa03.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dtoolchain_is_ok -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -o CMakeFiles/cmTC_3aa03.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3aa03
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3aa03.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dtoolchain_is_ok -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_3aa03.dir/src.c.obj  -o cmTC_3aa03 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostartfiles succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58c00.dir/build.make CMakeFiles/cmTC_58c00.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_58c00.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_nostartfiles -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nostartfiles -o CMakeFiles/cmTC_58c00.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_58c00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58c00.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_nostartfiles -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_58c00.dir/src.c.obj  -o cmTC_58c00 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nodefaultlibs succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e94f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e94f9.dir/build.make CMakeFiles/cmTC_e94f9.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e94f9.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_nodefaultlibs -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nodefaultlibs -o CMakeFiles/cmTC_e94f9.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e94f9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e94f9.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_nodefaultlibs -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_e94f9.dir/src.c.obj  -o cmTC_e94f9 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_nostdlib succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ce843/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ce843.dir/build.make CMakeFiles/cmTC_ce843.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ce843.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_nostdlib -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -nostdlib -o CMakeFiles/cmTC_ce843.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ce843
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce843.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_nostdlib -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_ce843.dir/src.c.obj  -o cmTC_ce843 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_static succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9e0a9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9e0a9.dir/build.make CMakeFiles/cmTC_9e0a9.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9e0a9.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_static -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -static -o CMakeFiles/cmTC_9e0a9.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_9e0a9
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9e0a9.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_static -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_9e0a9.dir/src.c.obj  -o cmTC_9e0a9 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_no_pie succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_45c00/fast"
+/usr/bin/make -f CMakeFiles/cmTC_45c00.dir/build.make CMakeFiles/cmTC_45c00.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_45c00.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_no_pie -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -no-pie -o CMakeFiles/cmTC_45c00.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_45c00
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45c00.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_no_pie -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_45c00.dir/src.c.obj  -o cmTC_45c00 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_asynchronous_unwind_tables_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df629/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df629.dir/build.make CMakeFiles/cmTC_df629.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_df629.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_asynchronous_unwind_tables_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-asynchronous-unwind-tables -o CMakeFiles/cmTC_df629.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_df629
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df629.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_asynchronous_unwind_tables_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_df629.dir/src.c.obj  -o cmTC_df629 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pie_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_679fe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_679fe.dir/build.make CMakeFiles/cmTC_679fe.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_679fe.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_pie_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-pie -o CMakeFiles/cmTC_679fe.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_679fe
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_679fe.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_pie_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_679fe.dir/src.c.obj  -o cmTC_679fe 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_pic_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6f6e3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6f6e3.dir/build.make CMakeFiles/cmTC_6f6e3.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6f6e3.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_pic_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-pic -o CMakeFiles/cmTC_6f6e3.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_6f6e3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f6e3.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_pic_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_6f6e3.dir/src.c.obj  -o cmTC_6f6e3 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_strict_overflow_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_eff9a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_eff9a.dir/build.make CMakeFiles/cmTC_eff9a.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_eff9a.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_strict_overflow_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-strict-overflow -o CMakeFiles/cmTC_eff9a.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_eff9a
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_eff9a.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_strict_overflow_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_eff9a.dir/src.c.obj  -o cmTC_eff9a 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_pointer_sign_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cf466/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cf466.dir/build.make CMakeFiles/cmTC_cf466.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cf466.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wno_pointer_sign_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wno-pointer-sign -o CMakeFiles/cmTC_cf466.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_cf466
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf466.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wno_pointer_sign_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_cf466.dir/src.c.obj  -o cmTC_cf466 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wno_unused_but_set_variable_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_81ad3/fast"
+/usr/bin/make -f CMakeFiles/cmTC_81ad3.dir/build.make CMakeFiles/cmTC_81ad3.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_81ad3.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wno_unused_but_set_variable_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wno-unused-but-set-variable -o CMakeFiles/cmTC_81ad3.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_81ad3
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_81ad3.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wno_unused_but_set_variable_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_81ad3.dir/src.c.obj  -o cmTC_81ad3 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_reorder_functions_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_770e1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_770e1.dir/build.make CMakeFiles/cmTC_770e1.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_770e1.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_reorder_functions_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-reorder-functions -o CMakeFiles/cmTC_770e1.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_770e1
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_770e1.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_reorder_functions_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_770e1.dir/src.c.obj  -o cmTC_770e1 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fno_defer_pop_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76e7c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76e7c.dir/build.make CMakeFiles/cmTC_76e7c.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76e7c.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fno_defer_pop_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fno-defer-pop -o CMakeFiles/cmTC_76e7c.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_76e7c
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76e7c.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fno_defer_pop_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_76e7c.dir/src.c.obj  -o cmTC_76e7c 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Werror_implicit_int_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8b914/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8b914.dir/build.make CMakeFiles/cmTC_8b914.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8b914.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Werror_implicit_int_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Werror=implicit-int -o CMakeFiles/cmTC_8b914.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_8b914
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8b914.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Werror_implicit_int_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_8b914.dir/src.c.obj  -o cmTC_8b914 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__X succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b4ecd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b4ecd.dir/build.make CMakeFiles/cmTC_b4ecd.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b4ecd.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wl__X -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,-X -o CMakeFiles/cmTC_b4ecd.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_b4ecd
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b4ecd.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wl__X -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_b4ecd.dir/src.c.obj  -o cmTC_b4ecd 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl__N succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_71425/fast"
+/usr/bin/make -f CMakeFiles/cmTC_71425.dir/build.make CMakeFiles/cmTC_71425.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71425.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wl__N -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,-N -o CMakeFiles/cmTC_71425.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_71425
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71425.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wl__N -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_71425.dir/src.c.obj  -o cmTC_71425 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___gc_sections succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_72602/fast"
+/usr/bin/make -f CMakeFiles/cmTC_72602.dir/build.make CMakeFiles/cmTC_72602.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72602.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wl___gc_sections -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,--gc-sections -o CMakeFiles/cmTC_72602.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72602
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72602.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wl___gc_sections -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_72602.dir/src.c.obj  -o cmTC_72602 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_Wl___build_id_none succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2eeb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2eeb6.dir/build.make CMakeFiles/cmTC_2eeb6.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2eeb6.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_Wl___build_id_none -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -Wl,--build-id=none -o CMakeFiles/cmTC_2eeb6.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2eeb6
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2eeb6.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_Wl___build_id_none -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_2eeb6.dir/src.c.obj  -o cmTC_2eeb6 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_ffunction_sections_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4984/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4984.dir/build.make CMakeFiles/cmTC_e4984.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e4984.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_ffunction_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -ffunction-sections -o CMakeFiles/cmTC_e4984.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_e4984
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4984.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_ffunction_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_e4984.dir/src.c.obj  -o cmTC_e4984 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test check_fdata_sections_C succeeded with the following output:
+Change Dir: /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_50530/fast"
+/usr/bin/make -f CMakeFiles/cmTC_50530.dir/build.make CMakeFiles/cmTC_50530.dir/build
+make[1]: Entering directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50530.dir/src.c.obj
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc   -Dcheck_fdata_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files   -fdata-sections -o CMakeFiles/cmTC_50530.dir/src.c.obj   -c /home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_50530
+/usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50530.dir/link.txt --verbose=1
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/bin/arm-zephyr-eabi/arm-zephyr-eabi-gcc  -Dcheck_fdata_sections_C -nostartfiles -nostdlib -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include -isystem /opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/lib/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/include-fixed -Wl,--unresolved-symbols=ignore-in-object-files    CMakeFiles/cmTC_50530.dir/src.c.obj  -o cmTC_50530 
+/opt/zephyr-sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/arm-zephyr-eabi/gcc/arm-zephyr-eabi/6.2.0/real-ld: warning: cannot find entry symbol _start; defaulting to 0000000000008024
+make[1]: Leaving directory `/home/tcs/00_vinay/Zephyr/GIT_MyWork/zephyr_dev/samples/drivers/rs485_test/build/arduino_due/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
